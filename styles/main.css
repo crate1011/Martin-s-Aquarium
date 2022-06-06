@@ -1,0 +1,132 @@
+.fish__image {
+    width: 300px
+}
+
+nav {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-end;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    text-decoration: underline;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: .5px;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: right;
+    border: 2px solid black;
+    text-align: center;
+    color: aqua;
+    font-size: x-large;
+    background-color: black;
+    margin: 1%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: 300px;
+    color: white;
+
+    border-color: red;
+    border-width: 20px;
+    border-style: double;
+    background-color: black;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+.fishCard {
+    background-color: black;
+    margin: 1%;
+    color: white;
+    padding: 10px;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: groove;
+}
+
+.header1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-image: url('https://www.treehugger.com/thmb/MaBulimRWPun06hPW_XyUVvrcn4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cristian-palmer-XexawgzYOBc-unsplash-1653b580fa9c4fc1a4824f6dd5f497b3.jpg');
+}
+
+.header1 {
+    display: flex;
+    border: 7px solid black;
+    width: 1675px;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+.fishandtricks {
+    display: flex;
+}
+
+.location__image {
+    width: 300px
+}
+
+.LocationList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.locationCard {
+    background-color: cornflowerblue;
+    margin: 1%;
+    color: white;
+    padding: 10px;
+    border-color: pink;
+    border-width: 5px;
+    border-style: groove;
+}
+
+.header2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.locationBox {
+    background-color: black;
+}
